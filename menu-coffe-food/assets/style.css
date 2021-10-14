@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+:root{
+	--font-fmyl:'Noto Sans JP', sans-serif;
+}
+
+.navbar{
+	background-color: #fff;
+	width: 100%;
+	border-bottom: 1px  solid #eee;
+}
+.container-fluid{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#navbar-title{
+	margin: 5px;
+	margin-left: 180px;
+	font-size: 1.3rem;
+	font-family:var(--font-fmyl);
+	font-weight: bold;
+	color: #000;
+}
+.icon-navbar{
+	position: absolute;
+	margin: 130px;
+}
+.icon-item{
+	margin-right: 290px;
+}
+.icon-link{	
+	color: #000;
+	font-size: 1.3rem;
+	margin-right: 4px;
+}
+.icon-link:hover{
+	color: #000;
+}
+.icon-link-1{
+	margin-left: 5px;
+}
+.link-button{
+	margin-top: 20px;
+	margin-right: 170px;
+}
+.button-1{
+	background-color: #000;
+	border: 1px solid #000;
+	color: #fff;
+	font-weight: bold;
+}
+.button-1:hover{
+	color: #fff;
+}
+.icon-contact{
+	position: absolute;
+	margin-top: 30px;
+	margin-right: 250px;
+}
+.home{
+	width: 100%;
+	height: 880px;
+	background-image: url(img/background.jpg);
+	background-size: cover;
+}
+.home-item{
+	position: absolute;
+	padding-left: 420px;
+	padding-top: 300px;
+}
+.home-title{
+	color: #fff;
+	font-size: 2.3rem;
+	font-family: var(--font-fmyl);
+	font-weight: bold;
+
+}
+.home-search{
+	position: absolute;
+	margin-top: 400px;
+	padding-left: 385px;
+}
+.search{
+	width: 370px;
+	border-radius: 17px;
+	color: #000;
+	font-weight: bold;
+}
+.button{
+	background-color: #000;
+	border-radius: 100px;
+	margin-left: 10px;
+	color: #fff;
+}
+.button:hover{
+	color: #eee;
+
+}
+.menu{
+	width: 100%;
+	height: 500px;
+}
+.card-items{
+	width: 100%;
+}
+.card{
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	width: 13rem;
+}
+.img-card{
+	width: 100%;
+	height: 150px;
+}
+.cek{
+	background-color: #000;
+	color: #fff;
+	border-color: #000;
+}
+.cek:hover{
+	background-color: #000;
+	border-color: #000;
+	opacity: .9;
+}
+li{
+	list-style: none;
+}
+.menu-button{
+	background-color: transparent;
+	color: #000;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #eee;
+	margin-right: 10px;
+	transition: .5s;
+	border-radius: 7px;
+}
+.menu-button:hover{
+	background-color: #000;
+	color: #fff;
+	transform: rotate(360deg);
+}
+.button-items{
+	margin-bottom: 20px;
+}
+.icon-menu{
+	font-size: 1.5rem;
+}
+@media only screen and (max-width:1024px) {
+	
+	.home-item{
+		padding-left: 400px;
+	}
+	.home-search{
+		padding-left: 355px;
+	}
+}
+
+
+@media only screen and (max-width:900px) {
+	#navbar-title{
+		margin-left: 100px;
+	}
+	.icon-navbar{
+		margin-left: 40px;
+	}
+	.home{
+		height: 600px;
+	}
+	.home-item{
+		padding-top: 200px;
+		padding-left: 290px;
+	}
+	.home-search{
+		margin-top: 300px;
+		padding-left: 250px;
+	}
+	.icon-item{
+		margin-right: 135px;
+	}
+	.link-button{
+		margin-right: 20px;
+	}
+	.icon-contact{
+		margin-right: 100px;
+	}
+
+}
+
+
+
+
+
+@media only screen and (max-width:768px) {
+	#navbar-title{
+		margin-left: 130px;
+	}
+	.icon-navbar{
+		margin-left: 70px;
+	}
+	.icon-item{
+		margin-right: 220px;
+
+	}
+	.icon-link{
+		font-size: 1.4rem;
+	}
+	.link-button{
+		margin-right: 100px;
+	}
+	.icon-contact{
+		margin-top: 27px;
+		margin-right: 180px;
+	}
+	.home{
+		height: 500px;
+	}
+	.home-item{
+		padding-left: 250px;
+		padding-top: 150px;
+	}
+	.home-title{
+		font-size: 2.1rem;
+	}
+	.home-search{
+		padding-left: 220px;
+		margin-top: 240px;
+	}
+	.search{
+		width: 330px;
+	}
+}
+
+
+
+@media only screen and (max-width:650px) {
+	#navbar-title{
+		margin-left: 100px;
+	}
+	.icon-navbar{
+		margin-left: 40px;
+	}
+	.icon-item{
+		margin-right: 135px;
+	}
+	.link-button{
+		margin-right: 20px;
+	}
+	.icon-contact{
+		margin-right: 100px;
+	}
+
+	.home-item{
+		padding-left: 170px;
+	}
+	.home-search{
+		padding-left: 120px;
+	}
+}
+
+
+@media only screen and (max-width:550px) {
+	#navbar-title{
+		margin-left: 60px;
+	}
+	.icon-navbar{
+		margin-left: 10px;
+	}
+	.icon-item{
+		margin-right: 135px;
+	}
+	.link-button{
+		margin-right: 20px;
+	}
+	.icon-contact{
+		margin-right: 100px;
+	}
+
+	.home-item{
+		padding-left: 140px;
+	}
+	.home-search{
+		padding-left: 100px;
+	}
+}
+
+
+
+
+
+@media only screen and (max-width:500px) {
+	#navbar-title{
+		margin-left: 30px;
+		font-size: 1.1rem;
+		margin-top: 0;
+	}
+	.icon-item{
+		position: absolute;
+		margin: 100px;
+		margin-top: 160px;
+		margin-left: 10px;
+	
+	}
+	.icon-navbar{
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		margin:0;
+	}
+	.link-button{
+		margin-right: 10px;
+
+	}
+	.icon-link{
+		font-size: 1.1rem;
+	}
+	.img-logo{
+		width: 14px;
+		height: 14px;
+  
+	}
+	.icon-contact{
+		margin-top: 55px;
+		margin-left: 30px;
+		display: inline-block;
+		margin-right: 350px;
+	} 
+	.home{
+		width: 100%;
+		height: 300px;
+	}
+	.home-title{
+		font-size: 1.1rem;
+	}
+	.home-item{
+		position: absolute;
+		padding-left: 180px;
+		padding-top: 100px;
+	}
+	.home-search{
+		position: absolute;
+		margin-top: 150px;
+		padding-left: 160px;
+	}
+	.search{
+		width: 160px;
+		border-radius: 17px;
+		color: #000;
+		font-weight: bold;
+		
+
+	}
+	.button{
+		background-color: #000;
+		border-radius: 100px;
+		margin-left: 10px;
+	}
+	.menu{
+		height: 1500px;
+	}
+	.menu-title{
+		font-weight: bold;
+		padding: 10px;
+		padding-left: 80px;
+		
+	}
+	.card-items{
+
+		padding: 30px;
+		padding-left:85px;
+	}
+	.card{		
+		margin-bottom: 20px;
+		width: 12rem;
+	}
+}
+
+@media only screen and (max-width:450px) {
+	.icon-contact{
+		margin-right: 275px;
+	}
+	.home-item{
+		padding-left: 130px;
+	}
+	.home-search{
+		padding-left: 120px;
+	}
+	.card-items{	
+		padding: 20px;
+		padding-left:65px;
+	}
+	.menu-title{
+		padding-left: 50px;
+	}
+	.card{
+		width: 15rem;
+	}
+	.img-card{
+		height: 200px;
+	}
+	.button-items{
+		padding-left: 50px;
+	}
+	.title-menu{
+		padding-left: 50px;
+	}
+}
+
+
+@media only screen and (max-width:400px) {
+	.icon-contact{
+		margin-right: 235px;
+	}
+	.home-item{
+		padding-left: 110px;
+	}
+	.home-search{
+		padding-left: 100px;
+	}
+	.card-items{	
+		padding: 15px;
+		padding-left:50px;
+	}
+}
+@media only screen and (max-width:370px) {
+	.icon-contact{
+		margin-right: 225px;
+	}
+	.card-items{	
+		padding: 10px;
+		padding-left:40px;
+	}
+}
+@media only screen and (max-width:350px) {
+	.icon-contact{
+		margin-right: 186px;
+	}
+	.home-item{
+		padding-left: 80px;
+	}
+	.home-search{
+		padding-left: 70px;
+	}
+	.card-items{	
+		padding: 10px;
+		padding-left:16px;
+	}
+}

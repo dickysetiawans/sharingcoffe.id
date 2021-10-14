@@ -1,0 +1,7 @@
+RewriteEngine on 
+
+#If you want remove extension
+
+RewriteRule ^menu$ index.php
+
+RewriteRule ^views$ views.php

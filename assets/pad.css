@@ -1,0 +1,260 @@
+@media  screen and (min-width:510px) 
+		and (max-width:995px){
+	.home{
+		background-image: url(img/background.jpg);
+		width: 100%;
+		height: 500px;
+		background-size: cover;
+	}
+	.icon-toggle{
+		color: #fff;
+		font-size: 1.4rem;
+	}
+	.navbar-brand{
+		margin-left: 30px;
+		font-size: 1.5rem;
+	}
+	#nav_ul{
+		padding: 20px;
+
+	}
+	.nav-item{
+		border-bottom: 1px solid#fff;
+		padding: 20px;
+		width: 200px;
+		margin: auto;display: block;
+	}
+	.nav-link{
+		text-align: center;
+		color: #fff;
+	}
+	.nav-link:hover{
+		color: #fff;
+		opacity: .6;
+	}
+	.navbar{
+		transition: .4s;
+	}
+	.title_home{
+		padding: 50px;
+		padding-top: 160px;
+		margin-left: 20px;
+	}
+	#title-home{
+		color: #fff;
+		font-weight: bold;
+	}
+	.title1{
+		margin-bottom: 17px;
+	}
+	.title2{
+		margin-bottom: 15px;
+		font-size: 1.9rem;
+	}
+	.title3{
+		font-size: 1.3rem;
+		margin-bottom: 15px;
+	}
+	#button2{
+		border-radius: 5px;
+		border: 3px solid #fff;
+		color: #fff;
+		font-weight: bold;
+	}
+	.menu{
+		width: 100%;
+		height: 500px;
+		background-image: url(img/food4.jpg);
+		background-size: cover;
+	}
+	.menu-item{
+		padding: 100px;
+		margin-left:43%;
+	}
+	.menu1{
+		width: 100%;
+		height: 500px;
+		background-image: url(img/food2.jpg);
+		background-size: cover;
+	}
+	.menu2{
+		width: 100%;
+		height: 500px;
+		background-image: url(img/food3.png);
+		background-size: cover;
+	}
+	.menu3{
+		width: 100%;
+		height: 500px;
+		background-image: url(img/food1.jpg);
+		background-size: cover;
+	}
+	#button{
+		border:2px solid#000;
+		background-color: #000;
+		color: #fff;
+		border-radius: 5px;
+	}
+	.about{
+		width: 100%;
+		height: 600px;
+		background-color:#F8F8FF;
+	}
+	.about_img{
+		width: 300px;
+		border-radius: 40px;
+		padding: 20px;
+		margin-top: 100px;
+		display: inline-block;
+		margin-left: 25px;
+	}
+	.about_items{
+		display: inline-block;
+		position: absolute;
+		width: 350px;
+		padding-top:150px;
+		margin-left: 20px;
+	}
+	.about_subtile{
+		font-size: 2.3rem;
+		font-weight: bold;
+		font-family: sans-serif;
+	}
+	.about_text{
+		font-size: 1.2rem;
+		margin-top: 10px;
+	}
+	#button3{
+		border: 1px solid#000;
+		background-color: #000;
+		color: #fff;
+		width: 110px;
+		border-radius: 10px;
+	}
+	.location{
+		width: 100%;
+		height: 600px;
+	}
+	.location_container{
+		padding: 50px;
+		padding-top:80px;
+
+	}
+	#text-locaation{
+		text-align: center;
+		font-size: 1.6rem;
+		font-weight: bold;
+		font-family: sans-serif;
+	}
+	.opening{
+		width: 100%;
+		height: 900px;
+	}
+	#open{
+		display: block;	
+		margin-left: 50px;
+		padding-top: 100px;
+	}
+	.open_{
+		position: absolute;
+		margin-left: 150px;
+	}
+	.opening_title{
+		width: 400px;
+		border-bottom: 5px solid #000;
+		border-top: 5px solid #000;
+		padding: 20px;
+		margin-bottom: 25px;
+		font-weight: bold;
+		text-align: center;
+		font-size: 40px;
+	}
+	#list{
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.list2{
+		font-weight: bold;
+	}
+	.list-1{
+		margin-bottom: 20px;
+	}
+	.link-menu{
+		color: #000;
+		font-size: 35px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.link-menu:hover{
+		color: #000;
+		opacity: .6;
+	}
+	.footer{
+		width: 100%;
+		height: 790px;
+		background-color: #000;
+	}
+	.container-footer{
+		padding: 50px;
+	}
+	#container-footer{
+		padding: 60px;
+		padding-top: 100px;
+		position: absolute;
+	}
+	.container-footer-2{
+		margin-left: 300px;
+	}
+	.container-footer-3{
+		margin-top: 250px;
+	}
+	.container-footer-4{
+		margin-top:  250px;
+		margin-left: 300px;
+	}
+	.title-footer{
+		color: #fff;
+		font-weight: bold;
+		margin-bottom: 17px;
+	}
+	.link-footer{
+		color: #fff;
+		font-size: 1.2rem;
+	}
+	.list-link{
+		margin-top: 10px;
+	}
+	.link-footer:hover{
+		color: #fff;
+		opacity: .6;
+	}
+	.list-footer{
+		color: #fff;
+		font-size: 1.1rem;
+	}
+	#list-footer{
+		margin-bottom:  20px;
+	}
+	.icon-link{
+		color: #fff;
+		font-size: 1.7rem;	
+	}
+	.icon-link:hover{
+		color: #fff;
+		opacity: .6;
+	}
+	.footer-2{
+		position: absolute;
+		margin-top: 700px;
+		border-top: 1px solid #fff;
+		margin-left: 60px;
+		padding: 10px;
+		width: 640px;
+	}
+	.text-footer{
+		color: #fff;
+		font-size: 1.1rem;
+		text-align: center;
+		padding-top: 20px;
+	}	
+}

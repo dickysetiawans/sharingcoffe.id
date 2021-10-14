@@ -1,0 +1,11 @@
+RewriteEngine on 
+
+#If you want to remove extension for single file
+
+RewriteRule ^login$ login.php 
+
+RewriteRule ^Register$ register.php
+
+RewriteRule ^home$ index.php  
+
+#For remove all php file extension
